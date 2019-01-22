@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1 [class]=titleClass>         <!--  [class.red-title]=titleclass.-->
+    Welcome to {{ title }}!
+  </h1>
+  <p [style.color]="state ? 'green' : 'pink'">
+    {{myObject.location}}
+  </p>
+
+  <ul [ngClass]="myStyles">
+    <li *ngFor="let arr of myArr ">{{ arr }}</li>
+  </ul>
+  {{someProperty}}
+ <app-my-new-component></app-my-new-component>
+
+ <button (click)="myEvent(event)">Click!</button>
+
+ <p [@MyAwesomeAnimation]='state' (click)="animateMe()">I will animate</p>
+
