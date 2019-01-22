@@ -1,0 +1,30 @@
+
+.pcircle{
+    float: left;
+    padding: 20px;
+    margin: 5px;
+       z-index: -1;   
+}
+
+a{
+    padding: 20px;
+    margin: 5px;
+}
+
+.nav-pills>a.active{
+    background-color:blue;
+   
+    }
+
+.menubar{
+    position: absolute;
+    top:30px;
+    left: 30;
+    float: left;
+    z-index: 10;
+}
+
+.circlediv{
+    position: absolute;
+    left: 300px;
+}
